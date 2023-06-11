@@ -1,0 +1,8 @@
+version: '3.9'
+services:
+  email-backend1:
+    build: 
+     context: .
+     dockerfile: ./DockerFile
+    volumes:
+      - .:/app
